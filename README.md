@@ -1,7 +1,4 @@
 <h1>footer-react</h1>
-<img src="https://img.shields.io/npm/dm/footer-react" alt="Downloads per month">
-
-<img src="https://i.pinimg.com/originals/06/5c/38/065c38aa3d95a16e8df0709b94bd411a.png" alt="Footer Image">
 
 <h2>About</h2>
 
@@ -31,9 +28,6 @@ function App() {
 }
 </code></pre>
 
-<h2>Map Service Configuration</h2>
-
-<p>Before you can use the <em>footer-react</em> package, please note the following:</p>
 <h2>Customization</h2>
 
 <p>You can customize the appearance and content of the footer according to your needs. Edit the component's content, styling, and layout to match your project's design requirements.</p>
