@@ -45,10 +45,9 @@ function App() {
 
 <h2>Issues and Contributions</h2>
 
-<p>If you encounter any issues or have suggestions for improvements, please <a href="https://github.com/saad662/footer-react/issues">open an issue</a> on GitHub.</p>
+<p>If you encounter any issues or have suggestions for improvements, please open an issue on GitHub.</p>
 
 <p>Contributions are welcome! Feel free to create a pull request.</p>
 
 <hr>
 
-<p>This package is available on <a href="https://www.npmjs.com/package/footer-react">npm</a>. If you find it useful, please consider leaving a star on GitHub and a review on npmjs.com.</p>
