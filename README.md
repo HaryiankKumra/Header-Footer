@@ -5,7 +5,7 @@
 
 <h2>About</h2>
 
-<p><em>footer-react</em> is a customizable footer component for React applications. It allows you to easily add a footer to your web application with various customization options. Whether you're building a personal website, a business site, or any web project, this package provides a convenient way to create and style your footer.</p>
+<p><em>Heade-footer-react</em> is a customizable footer component for React applications. It allows you to easily add a footer to your web application with various customization options. Whether you're building a personal website, a business site, or any web project, this package provides a convenient way to create and style your footer.</p>
 
 <h2>Installation</h2>
 
@@ -34,12 +34,6 @@ function App() {
 <h2>Map Service Configuration</h2>
 
 <p>Before you can use the <em>footer-react</em> package, please note the following:</p>
-
-<ul>
-  <li>You need to add your own map service access key (e.g., Mapbox which was used in my package)  to enable map functionality in the package.</li>
-  <li>Alternatively, you can choose to use a different map service if preferred.</li>
-</ul>
-
 <h2>Customization</h2>
 
 <p>You can customize the appearance and content of the footer according to your needs. Edit the component's content, styling, and layout to match your project's design requirements.</p>
@@ -47,8 +41,8 @@ function App() {
 <h2>Author</h2>
 
 <ul>
-  <li>Username: saad662</li>
-  <li>Email: saadamin662@gmail.com</li>
+  <li>Username: haryiank_kumra</li>
+  <li>Email: kumraharyiank@gmail.com</li>
 </ul>
 
 <h2>License</h2>
