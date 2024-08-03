@@ -1,0 +1,138 @@
+/* Header Styles */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  width:  98.97%;
+  height: 72px;
+  top: 0;
+  background: #C7D4E9;
+  border-bottom: 1px solid #000;
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+
+/* Header Container Styles */
+.header-container {
+  display: flex;
+  width: 100%;
+  max-width: 1312px;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+}
+
+/* Header Sections */
+.header-left, .header-right {
+  display: flex;
+  align-items: center;
+}
+
+.header-center {
+  display: flex;
+  justify-content: center;
+  flex-grow: 1;
+}
+
+/* Logo Styles */
+.header-logo img {
+  width: 130px; /* Adjust as needed */
+  height: auto;
+}
+
+/* Navigation Link Styles */
+.nav-link {
+  margin: 0 20px;
+  text-decoration: none;
+  font-family:  sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #000;
+  position: relative;
+}
+
+/* Dropdown Styles */
+.team-dropdown {
+  position: relative;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.team-dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #f1f1f1;
+}
+
+/* App.css */
+
+/* Button Styles */
+.header-button {
+  margin-right: 10px;
+  padding: 8px 20px;
+  background: #000;
+  border: 1px solid #000;
+  color: #FFF;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  cursor: pointer; /* Ensure the button shows a pointer cursor */
+}
+
+.header-button:hover {
+  background: #333; /* Darken background on hover */
+}
+
+.header-button:focus {
+  outline: none; /* Remove default focus outline */
+}
+
+.header-right {
+  /* Ensure this container is properly positioned and interactive */
+  position: relative;
+}
+
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .header {
+    padding: 0 10px;
+  }
+
+  .header-container {
+    flex-direction: column;
+  }
+
+  .nav-link {
+    margin: 0 10px;
+    font-size: 14px;
+  }
+
+  .header-logo img {
+    width: 100px; /* Adjust logo size for smaller screens */
+  }
+
+  .header-button {
+    padding: 6px 15px;
+    font-size: 14px;
+  }
+}

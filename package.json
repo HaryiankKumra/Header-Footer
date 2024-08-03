@@ -1,0 +1,46 @@
+{
+  "name": "footer-react",
+  "version": "0.1.4",
+  "license": "ISC",
+  "keywords": ["React", "footer", "web development", "UI", "responsive", "customizable", "footer component", "React footer", "frontend", "open source", "mobile footer", "mobile footer react"],
+  "author": "saad662",
+  "description": "A highly customizable and responsive React footer component for web applications, compatible with mobile also.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/saad662/footer-react"
+  },
+  "dependencies": {
+    "mapbox-gl": "^2.15.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.16.0",
+    "react-scripts": "5.0.1",
+    "web-vitals": "^2.1.4",
+    "webfontloader": "^1.6.28"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

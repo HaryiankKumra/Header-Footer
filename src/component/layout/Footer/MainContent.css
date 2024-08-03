@@ -1,0 +1,86 @@
+.main-content {
+  text-align: center;
+  padding: 20px;
+  background-color: #000;
+  color: #fff;
+}
+
+.intro-section {
+  background-color: #111;
+  color: #fff;
+  padding: 50px 0;
+}
+
+.short-heading {
+  background-color: #222;
+  color: #fff;
+  padding: 20px 0;
+}
+
+.cards-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px;
+}
+
+.card {
+  background-color: #333;
+  margin: 10px;
+  padding: 20px;
+  border-radius: 10px;
+  width: 300px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.card h4 {
+  margin-bottom: 10px;
+}
+
+.card p {
+  margin-bottom: 20px;
+}
+
+/* Responsive Design */
+@media (max-width: 1200px) {
+  .intro-section {
+    padding: 40px 0;
+  }
+  .short-heading {
+    padding: 15px 0;
+  }
+  .card {
+    width: 250px;
+  }
+}
+
+@media (max-width: 768px) {
+  .intro-section {
+    padding: 30px 0;
+  }
+  .short-heading {
+    padding: 10px 0;
+  }
+  .card {
+    width: 200px;
+    margin: 10px 5px;
+  }
+}
+
+@media (max-width: 480px) {
+  .intro-section {
+    padding: 20px 0;
+  }
+  .short-heading {
+    padding: 5px 0;
+  }
+  .card {
+    width: 100%;
+    margin: 10px 0;
+  }
+}
